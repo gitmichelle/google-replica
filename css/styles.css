@@ -12,3 +12,17 @@
   border-radius: 0;
   border: none;
 }
+
+.navbar-toggle {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+#searchIcon {
+  margin-top: 1em;
+  margin-left: 5.5em;
+  width: 7%;
+}
