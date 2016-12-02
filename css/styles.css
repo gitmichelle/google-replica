@@ -2,6 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.container-fluid, .row, .col-xs-12, .col-xs-4, .col-xs-8 {
+  padding: 0;
+  margin: 0;
+}
+
 /*<---Navbar-->*/
 #navLogo {
   width: 100%;
@@ -11,6 +16,7 @@ body {
 .navbar-header {
   height: 64px !important;
   padding-top: 10px;
+  padding-left: 18px;
 }
 
 .navbar-brand {
@@ -74,13 +80,65 @@ li {
 
 .blackFridayInfo p:first-child {
   font-size: 1.5em;
-  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-weight: bold;
 }
 
 .blackFridayInfo p:last-child {
   font-size: .9em;
-  font-family: 'Roboto', sans-serif;
   font-weight: 100;
+}
+
+#fontBold {
+  font-size: 1.2em;
+  font-weight: 100;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+#fontLight {
+  font-size: .9em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.mobileInfo {
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px 10px;
+}
+
+.mediaPlanning {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+}
+
+.mobileImage {
+  /*background-image: url("img/mobilefirst.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  display: block;*/
+}
+
+row {
+  max-height: 5vh !important;
+  display: table !important;
+}
+
+/*img {
+  max-width: 150%;
+  max-height: 150%;
+  display: table-cell;
+  vertical-align: middle;
+
+}*/
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
