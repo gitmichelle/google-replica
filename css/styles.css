@@ -2,15 +2,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container-fluid, .row, .leftCol, .rightCol, .top, .topTop, .topBottom, .bottom, .bottomTop, .bottomBottom {
+.container-fluid, .row, .leftCol, .rightCol, .top, .topTop, .bottom, .bottomTop, .bottomBottom, .topBottom {
   padding: 0;
   margin: 0;
 }
 
 /*<---Navbar-->*/
 #navLogo {
-  width: 100%;
-  margin: 0;
+  width: 200px;
+  margin-left: 15px;
   padding-top: 10px;
 }
 .navbar-header {
@@ -23,8 +23,8 @@ body {
   width: 50%;
   padding: 0;
   height: 64px !important;
-
 }
+
 
 .navbar {
   background-color: white;
@@ -104,7 +104,21 @@ li {
   height: 30%;
 }
 
-.xsImg {
-  object-position: cover !important;
+.boxText {
+  padding: 5px;
+}
 
+.topText {
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.bottomText {
+  font-size: 9pt;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 100;
 }
