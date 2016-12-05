@@ -69,7 +69,6 @@ li {
 
 .top, .bottom {
   height: 50%;
-  background-color: black;
 }
 
 .bottomTop, .topTop {
@@ -83,63 +82,29 @@ li {
   height: 30%;
 }
 
+.xsBoxTop {
+  background-color: #0d47a1;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 50% !important;
+}
+
+.xsBoxBottom {
+  background-color: #009688;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 50% !important;
+}
+
 .bottomBottom {
   background-color: #009688;
   color: white;
   height: 30%;
 }
 
-/*.fullScreenRow img {
-  max-width: 100%;
-  display: block;
-}
-
-.imageFill img {
-  height: 100%;
-  width: 100%;
-}
-
-.cover {
-  object-fit: cover;
-}
-
-.imageFill {
-  margin: 0;
-  padding: 0;
-  height: 544px !important;
-  width: 667px !important;*/
+.xsImg {
+  object-position: cover !important;
 
 }
-
-/*.main {
-  height: 544px;
-  width: 667px;
-  border: 1px solid black;
-  padding: 0;
-
-}*/
-
-/*.row img {
-  display: block !important;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  object-fit: cover;
-}*/
-
-/*.one, .three {
-  height: 168px;
-  width: 333px;
-}
-
-.two, .four {
-  height: 104px;
-  width: 333px;
-}
-
-.four {
-  background-color: #009688;
-}
-
-.two {
-  background-color: #0d47a1
-}*/
