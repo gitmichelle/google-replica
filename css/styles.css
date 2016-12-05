@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container-fluid, .row, .col-md-8, .col-md-4, .col-md-12, a, .thumbnail{
+.container-fluid, .row, .leftCol, .rightCol, .top, .topTop, .topBottom, .bottom, .bottomTop, .bottomBottom {
   padding: 0;
   margin: 0;
 }
@@ -48,9 +48,48 @@ li {
   width: 4%;
 }
 
-/*<--Black Friday Image-->*/
+/*<--Main Block-->*/
 
-.fullScreenRow img {
+.mainRow {
+  height: 544px;
+}
+
+.leftCol {
+  height: 100%;
+}
+
+.row img {
+ object-fit: cover;
+ overflow: hidden;
+}
+
+.rightCol {
+  height: 100%;
+}
+
+.top, .bottom {
+  height: 50%;
+  background-color: black;
+}
+
+.bottomTop, .topTop {
+  padding: 0;
+  height: 70%;
+}
+
+.topBottom {
+  background-color: #0d47a1;
+  color: white;
+  height: 30%;
+}
+
+.bottomBottom {
+  background-color: #009688;
+  color: white;
+  height: 30%;
+}
+
+/*.fullScreenRow img {
   max-width: 100%;
   display: block;
 }
@@ -68,7 +107,7 @@ li {
   margin: 0;
   padding: 0;
   height: 544px !important;
-  width: 667px !important;
+  width: 667px !important;*/
 
 }
 
@@ -87,7 +126,7 @@ li {
   object-fit: cover;
 }*/
 
-.one, .three {
+/*.one, .three {
   height: 168px;
   width: 333px;
 }
@@ -103,4 +142,4 @@ li {
 
 .two {
   background-color: #0d47a1
-}
+}*/
