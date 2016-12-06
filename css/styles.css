@@ -52,7 +52,7 @@ li {
 /*<--Main Block-->*/
 
 .mainRow {
-  height: 544px;
+  max-height: 544px !important;
 }
 
 .leftCol {
@@ -79,7 +79,7 @@ li {
   height: 225px;
   width: 225px;
   color: white;
-  padding: 10px;
+  padding: 17px 10px;
 
 }
 
@@ -90,8 +90,9 @@ li {
   bottom: 25px;
   height: 30%;
   width: 90%;
+  height: 20vh;
   color: white;
-  padding: 30px 15px;
+  padding: 10px 15px;
 
 }
 
@@ -110,6 +111,13 @@ li {
   background-color: #083663;
   color: white;
   height: 104px;
+}
+
+.xsTopText {
+  margin-top: 0;
+  font-size: 12pt;
+  margin-left: 10px;
+  font-weight: 300;
 }
 
 .xsBoxTop {
@@ -135,16 +143,23 @@ li {
   height: 104px;
 }
 
+.xsMainText {
+  font-weight: 100;
+  margin: 10px;
+  line-height: 1.2;
+  font-size: 16pt;
+}
+
 .mainText {
   font-size: 18pt;
   font-weight: 100;
   margin-left: 10px;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .boxText {
-  padding: 5px;
+  padding: 15px 10px;
 }
 
 .topText {
