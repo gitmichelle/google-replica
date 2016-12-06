@@ -1,8 +1,8 @@
-# _Think with Google Replica_
+# Think with Google Replica
 
-#### _CSS Week 2: responsive design independent project, 12.05.2016_
+#### CSS Week 2: responsive design independent project, 12.05.2016
 
-#### By _**Michelle Llaguno**_
+#### By **Michelle Llaguno**
 
 ## Description
 
