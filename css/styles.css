@@ -61,6 +61,11 @@ li {
   overflow: hidden;
 }
 
+.leftCol img {
+  height: 544px;
+  width: 100%;
+}
+
 .row img {
  object-fit: cover;
  overflow: hidden;
@@ -69,6 +74,11 @@ li {
 .rightCol {
   height: 100%;
   overflow: hidden;
+}
+
+.rightCol img {
+  height: 100%;
+  width: 100%;
 }
 
 .positionBox {
@@ -82,8 +92,6 @@ li {
   padding: 17px 10px;
 
 }
-
-
 
 .top, .bottom {
   height: 272px;
@@ -152,20 +160,40 @@ img:hover {
 
 /*<--Media Queries-->*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+
+  .leftCol {
+    height: 341px;
+  }
 
   .leftCol img {
     height: 100%;
     width: 100%;
   }
 
-  .positionBoxXS {
+  .leftCol p:last-of-type {
+    display: none;
+  }
+
+  .rightCol {
+    height: 192px;
+  }
+
+  .rightCol img {
+    height: 60%;
+  }
+
+  .top, .bottom {
+    height: 96px;
+  }
+
+  .positionBox {
     background-color: #263238;
     position: absolute;
     left: 25px;
     bottom: 25px;
     height: 30%;
-    width: 90%;
+    width: 90% !important;
     height: 20vh;
     color: white;
     padding: 10px 15px;
@@ -201,5 +229,4 @@ img:hover {
     height: 50% !important;
     overflow: hidden;
   }
-
 }
