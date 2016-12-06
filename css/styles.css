@@ -36,6 +36,7 @@ body {
 
 .navbar-toggle {
   border: none;
+  margin-right: 30px;
 }
 
 li {
@@ -56,6 +57,8 @@ li {
 
 .leftCol {
   height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .row img {
@@ -65,25 +68,52 @@ li {
 
 .rightCol {
   height: 100%;
+  overflow: hidden;
+}
+
+.positionBox {
+  background-color: #263238;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  height: 225px;
+  width: 225px;
+  color: white;
+  padding: 10px;
+
+}
+
+.positionBoxXS {
+  background-color: #263238;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  height: 30%;
+  width: 90%;
+  color: white;
+  padding: 30px 15px;
+
 }
 
 .top, .bottom {
-  height: 50%;
+  height: 272px;
+  overflow: hidden;
 }
 
 .bottomTop, .topTop {
   padding: 0;
-  height: 70%;
+  height: 168px;
+  overflow: hidden;
 }
 
 .topBottom {
-  background-color: #0d47a1;
+  background-color: #083663;
   color: white;
-  height: 30%;
+  height: 104px;
 }
 
 .xsBoxTop {
-  background-color: #0d47a1;
+  background-color: #083663;
   color: white;
   margin: 0;
   padding: 0;
@@ -96,12 +126,21 @@ li {
   margin: 0;
   padding: 0;
   height: 50% !important;
+  overflow: hidden;
 }
 
 .bottomBottom {
   background-color: #009688;
   color: white;
-  height: 30%;
+  height: 104px;
+}
+
+.mainText {
+  font-size: 18pt;
+  font-weight: 100;
+  margin-left: 10px;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .boxText {
@@ -112,13 +151,25 @@ li {
   font-size: 12pt;
   margin-top: 5px;
   margin-left: 10px;
-  margin-bottom: 5px;
   font-weight: 300;
 }
 
 .bottomText {
   font-size: 9pt;
   margin-left: 10px;
+  margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 100;
+}
+
+img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
