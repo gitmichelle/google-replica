@@ -83,18 +83,7 @@ li {
 
 }
 
-.positionBoxXS {
-  background-color: #263238;
-  position: absolute;
-  left: 25px;
-  bottom: 25px;
-  height: 30%;
-  width: 90%;
-  height: 20vh;
-  color: white;
-  padding: 10px 15px;
 
-}
 
 .top, .bottom {
   height: 272px;
@@ -113,29 +102,7 @@ li {
   height: 104px;
 }
 
-.xsTopText {
-  margin-top: 0;
-  font-size: 12pt;
-  margin-left: 10px;
-  font-weight: 300;
-}
 
-.xsBoxTop {
-  background-color: #083663;
-  color: white;
-  margin: 0;
-  padding: 0;
-  height: 50% !important;
-}
-
-.xsBoxBottom {
-  background-color: #009688;
-  color: white;
-  margin: 0;
-  padding: 0;
-  height: 50% !important;
-  overflow: hidden;
-}
 
 .bottomBottom {
   background-color: #009688;
@@ -143,12 +110,6 @@ li {
   height: 104px;
 }
 
-.xsMainText {
-  font-weight: 100;
-  margin: 10px;
-  line-height: 1.2;
-  font-size: 16pt;
-}
 
 .mainText {
   font-size: 18pt;
@@ -187,4 +148,58 @@ img:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+/*<--Media Queries-->*/
+
+@media screen and (max-width: 600px) {
+
+  .leftCol img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .positionBoxXS {
+    background-color: #263238;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    height: 30%;
+    width: 90%;
+    height: 20vh;
+    color: white;
+    padding: 10px 15px;
+  }
+
+  .xsMainText {
+    font-weight: 100;
+    margin: 10px;
+    line-height: 1.2;
+    font-size: 16pt;
+  }
+
+  .xsTopText {
+    margin-top: 0;
+    font-size: 12pt;
+    margin-left: 10px;
+    font-weight: 300;
+  }
+
+  .xsBoxTop {
+    background-color: #083663;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 50% !important;
+  }
+
+  .xsBoxBottom {
+    background-color: #009688;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 50% !important;
+    overflow: hidden;
+  }
+
 }
