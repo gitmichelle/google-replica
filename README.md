@@ -10,8 +10,9 @@ _Recreated the top responsive section of the https://www.thinkwithgoogle.com/ we
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
-* _Open website_
+* _[Click here] (https://gitmichelle.github.io/google-replica/) to view on gh-pages._
+* _Clone repository `https://github.com/gitmichelle/google-replica.git`
+
 
 ## Technologies Used
 
